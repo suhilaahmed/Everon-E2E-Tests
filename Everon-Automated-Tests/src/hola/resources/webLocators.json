@@ -1,0 +1,29 @@
+{
+  "HomePage" : {
+    "aboutMenu" : "//span[@class = 'link' and contains(text(), 'About')]",
+    "productsMenu" : "//span[@class = 'link' and contains(text(), 'Products')]",
+    "partnersMenu" : "//span[@class = 'link' and contains(text(), 'Partners')]",
+    "resourcesMenu" : "//span[@class = 'link' and contains(text(), 'Resources')]",
+    "requestQuoteMenu" : "//span[@class = 'link' and contains(text(), 'Request a quote')]",
+    "contactUsOption": "//*[text() = 'Contact us']",
+    "acceptCookiesButton" : "//*[@id = 'hs-eu-confirmation-button']"
+  },
+
+  "contactUsPage": {
+    "requestHelpButton" : "(//a[@class = 'button button__primary' and text() = 'Request help'])[2]"
+  },
+  "supportPage": {
+    "firstNameInputField": "//input[contains (@id , 'firstname') and @name = 'firstname']",
+    "lastNameInputField": "//input[contains (@id, 'lastname') and @name = 'lastname']",
+    "emailInputField" : "//input[contains (@id , 'email') and @name = 'email']",
+    "postalCodeInputField" : "//input[contains (@id , 'zip') and @name = 'zip']",
+    "cityInputField" : "//input[contains (@id , 'city') and @name = 'city']",
+    "countryList" : "//select[contains (@id , 'country') and @name = 'country']",
+    "messageTextArea" : "//textarea[contains (@id , 'message') and @name = 'message']",
+    "sendBtn" : "//input[@type = 'submit' and @value = 'Send']",
+    "requiredFieldsErrorMessage" : "//div[@class = 'hs_error_rollup']",
+    "invalidEmailFormatErrorMessage" : "//label[@class = 'hs-error-msg' and text() = 'Email must be formatted correctly.']",
+    "browseFAQsBtn" : "(//a[@class = 'button button__primary' and text() = 'Browse FAQs'])[2]",
+    "visitBlogBtn" : "(//a[@class = 'button button__secondary' and text() = 'Visit blog'])[2]"
+  }
+}
